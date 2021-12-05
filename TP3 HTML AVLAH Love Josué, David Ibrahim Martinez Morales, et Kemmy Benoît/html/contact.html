@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <!--Import de la police Roboto (Regular)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .toutLeMenu {
+            /*Inclu la partie de la barre de navigation du header sauf le logo principale*/
+            top: 260px;
+        }
+
+        .imageGrandLogo {
+            /*Alignement du logo principale*/
+            padding-left: 2%;
+            text-align: center;
+            left: 36.8%;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        nav {
+            /*Alignement des liens de navigation du menu*/
+            width: 50%;
+            top: 0;
+            left: 27%;
+            position: absolute;
+        }
+
+        .menu {
+            /*Positionnement de toute la barre de navigation incluant le petit logo à gauche*/
+            position: relative;
+        }
+
+        ul {
+            /*Formatage des liens de navigation*/
+            list-style: none;
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+
+        .li {
+            /*Espacement entre les liens de navigation de la barre de navigation*/
+            margin-left: 22.5%;
+        }
+
+        .li2 {
+            /*Espacement entre les liens de navigation du pied de page*/
+            margin-left: 20.5%;
+        }
+
+        a {
+            /*Formatage des liens cliquables*/
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            /*Effet des liens cliquables au survol, sauf le petit logo cliquable*/
+            text-decoration: underline;
+        }
+
+        .listePiedPage {
+            /*Déplacement vers la droite du bloc div contenant les liens de navigation du pied de page*/
+            padding-left: 20.9%;
+        }
+
+        p {
+            /*Tous les paragraphes de l'ensemble du site vont être dans ce format*/
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        h1 {
+            /*Tous les titres h1 de l'ensemble du site vont être dans ce format*/
+            font-family: 'Roboto', sans-serif;
+            font-size: 72px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--En-tête de la page -->
+    <header>
+        <!--Image du logo de SpaceX en haut de la page -->
+        <div class="imageGrandLogo"><img src="../images/grandSpaceX.png" alt="grandLogoSpaceX" width="400px"></div>
+        <div class="toutLeMenu">
+            <!--Barre de navigation-->
+            <hr>
+            <div class="menu">
+                <!--Image petit logo de SpaceX à l'extrême gauche du menu-->
+                <a href="../index.html"><img src="../images/petitSpaceX.webp" alt="petitLogoSpaceX" width="60px"
+                        height="50px"></a>
+                <!--Sections du site-->
+                <nav>
+                    <ul>
+                        <li><a href="falcon9.html">FALCON 9</a></li>
+                        <li class="li"><a href="falconHeavy.html">FALCON HEAVY</a></li>
+                        <li class="li"><a href="dragon.html">DRAGON</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <hr>
+        </div>
+    </header>
+    <!--Corps de la page-->
+
+
+
+
+
+
+
+    <div class="corpsPage">
+        <!--Inscrire le contenu des autres pages ici-->
+    </div>
+
+
+
+
+
+
+
+    <!--Pied de la page-->
+    <footer>
+        <hr>
+        <div class="listePiedPage">
+            <ul>
+                <li>SPACE © 2021</li>
+                <li class="li2"><a href="contact.html">CONTACT</a></li>
+                <li class="li2"><a href="apropos.html">À PROPOS</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
